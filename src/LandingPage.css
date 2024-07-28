@@ -1,30 +1,69 @@
+/* src/LandingPage.css */
+
 .landing-page {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .landing-header {
-    background: #f8f9fa;
-    padding: 50px 0;
-  }
-  
-  .join-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  
-  .features {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-  }
-  
-  .feature {
-    width: 30%;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f9d423, #ff4e50);
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.landing-header {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 50px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.landing-header h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+.landing-header p {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.join-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.join-button:hover {
+  background: #0056b3;
+  transform: translateY(-3px);
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.feature {
+  width: 30%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature h2 {
+  color: #333;
+}
+

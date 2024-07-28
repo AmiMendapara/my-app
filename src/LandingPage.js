@@ -1,5 +1,3 @@
-// src/LandingPage.js
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LandingPage.css';
@@ -14,22 +12,19 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <header className="landing-header">
-        <h1>Landing Page</h1>
-        <p>Join us our community and be part of something great!</p>
+        <h1>Landing Page...</h1>
+        <p>Join us and be part of something great!</p>
         <button className="join-button" onClick={handleJoinNow}>Join Now</button>
       </header>
       <section className="features">
         <div className="feature">
-          <h2>Feature One</h2>
-          <p>It's a Feature one.</p>
+          <h2>Feature (1)</h2>
         </div>
         <div className="feature">
-          <h2>Feature Two</h2>
-          <p>It's a Feature two.</p>
+          <h2>Feature (2)</h2>
         </div>
         <div className="feature">
-          <h2>Feature Three</h2>
-          <p>It's a Feature three.</p>
+          <h2>Feature (3)</h2>
         </div>
       </section>
     </div>
